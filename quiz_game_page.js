@@ -59,4 +59,5 @@ function check()
             document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
         }
     }
+     document.getElementById("output").innerHTML = "";
 }
