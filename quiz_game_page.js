@@ -28,8 +28,8 @@ function send()
     document.getElementById("number2").value = "";
 }
 
-question_turn = "player1";
-answer_turn = "player2";
+question_turn = "player2";
+answer_turn = "player1";
 function check()
 {
     get_answer = document.getElementById("input_check_box").value;
@@ -59,5 +59,5 @@ function check()
             document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
         }
     }
-     document.getElementById("output").innerHTML = "";
+    document.getElementById("output").innerHTML = "";
 }
